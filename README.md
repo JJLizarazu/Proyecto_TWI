@@ -1,4 +1,4 @@
-# Proyecto Web – Sitio Oficial de "Pizzas Fuego"
+# Proyecto Web – Sitio Web de "Pizzas Fuego"
 
 **Repositorio del Proyecto Web del 2do Parcial Práctico – Tecnología Web I**
 
