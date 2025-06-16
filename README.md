@@ -1,103 +1,66 @@
-# Proyecto_TWI: Sitio Web para "Pizzas Fuego" y "Alitas Fuego" 🍕🔥🍗
+# Proyecto Web – Sitio Oficial de "Pizzas Fuego"
+
+**Repositorio del Proyecto Web del 2do Parcial Práctico – Tecnología Web I**
 
 ---
 
-### **Información del Proyecto**
+## 📌 Información General
 
-* **Estudiante:** Juan Jose Lizarazu Quiroga  
-* **Materia:** Tecnología Web I  
-* **Docente:** []  
-* **Institución:** Infocal  
-* **Fecha de Entrega:** 16 / 06 / 2025  
-
----
-
-Este proyecto, **`Proyecto_TWI`**, fue desarrollado como parte de la asignatura Tecnología Web I. Su objetivo principal es demostrar la creación de una aplicación web moderna y dinámica utilizando **HTML5**, **CSS3** y **JavaScript**, con un enfoque en la interactividad del usuario y la persistencia de datos a través de **`localStorage`**.
-
-El proyecto simula la presencia en línea de dos negocios adyacentes y hermanos en Bolivia: **"Pizzas Fuego"** y **"Alitas Fuego"**, ambos propiedad de la misma dueña. La aplicación permite a los usuarios navegar fluidamente entre las dos páginas web de estos negocios desde una única interfaz, ofreciendo una experiencia de usuario coherente y fácil de usar.
-
-El sitio web permite:  
-✅ Ver menús actualizados de ambos locales.  
-✅ Consultar la ubicación.  
-✅ Hacer pedidos directamente.  
-✅ Navegar entre ambos sitios con un solo clic.
+**Estudiante:** Juan José Lizarazu Quiroga  
+**Materia:** Tecnología Web I  
+**Institución:** Instituto Infocal  
+**Fecha:** 16 de junio de 2025  
+**Proyecto:** Sitio Web para la Pizzería "Pizzas Fuego"  
 
 ---
 
-## 📂 Estructura de Carpetas y Archivos
+## 🌐 Descripción del Proyecto
 
-```plaintext
+Este proyecto consiste en el desarrollo de una página web para la pizzería **"Pizzas Fuego"**, con el objetivo de brindar a los clientes una experiencia digital atractiva y funcional. La web incluye secciones relevantes para promover los productos, servicios, y facilitar la comunicación con los clientes.
+
+Puedes acceder a la página web en vivo desde el siguiente enlace:  
+🔗 [https://jjlizarazu.github.io/Proyecto_TWI/](https://jjlizarazu.github.io/Proyecto_TWI/)
+
+---
+
+## 🧱 Tecnologías Utilizadas
+
+- **HTML5** – Para la estructura semántica de la página.
+- **CSS3** – Para el diseño visual y tematización del sitio.
+- **JavaScript** – Para funciones dinámicas, como el cambio de temas.
+- **Herramientas del navegador** – Para inspección y depuración del sitio.
+
+---
+
+## 📁 Estructura del Repositorio
+
+```
 Proyecto_TWI/
-├── index.html               # Página principal: Pizzas Fuego
-├── alitas.html              # Página principal: Alitas Fuego
-├── css/
-│   ├── style.css            # Estilos generales
-│   ├── pizzas.css           # Estilos específicos de Pizzas Fuego
-│   └── alitas.css           # Estilos específicos de Alitas Fuego
-├── js/
-│   ├── main.js              # Lógica general (navbar, localStorage)
-│   ├── pizzas.js            # Scripts específicos de Pizzas Fuego
-│   └── alitas.js            # Scripts específicos de Alitas Fuego
-├── img/
-│   ├── pizzas/              # Imágenes de Pizzas Fuego
-│   └── alitas/              # Imágenes de Alitas Fuego
-├── README.md                # Este archivo
-└── .gitignore               # Ignora archivos innecesarios
-
+│
+├── html/                # Archivos HTML del sitio
+├── css/                 # Archivos CSS para estilos y temas
+├── js/                  # Funciones JavaScript (cambio de temas, etc.)
+├── assets/
+│   └── img/             # Imágenes utilizadas en la página
 ```
 
-##🚀 Cómo Ejecutar el Proyecto
-Este proyecto es una aplicación web estática, lo que significa que no requiere un servidor backend complejo para su funcionamiento.
+---
 
-1️⃣ Clonar el Repositorio
-Abre tu terminal o Git Bash y ejecuta:
+## 🗂️ Secciones Principales del Sitio
 
-```bash
-git clone https://github.com/tu-usuario/Proyecto_TWI.git
-```
-ℹ️ Reemplaza tu-usuario con tu nombre de usuario de GitHub.
+- **Inicio:** Presentación e identidad de la pizzería.
+- **Menú Completo:** Listado detallado de pizzas y otros productos.
+- **Promociones Actuales:** Ofertas especiales vigentes.
+- **Galería de Productos:** Imágenes reales de las pizzas.
+- **Información de Contacto:** Dirección, teléfono y horarios.
+- **Redes Sociales:** Enlaces a plataformas como Facebook e Instagram.
 
-2️⃣ Navegar al Directorio del Proyecto
+---
 
-```bash
-cd Proyecto_TWI
 
-```
 
-3️⃣ Abrir en el Navegador
-Abre los archivos index.html o alitas.html directamente en tu navegador web preferido.
-Puedes hacerlo arrastrando el archivo a la ventana del navegador, o haciendo doble clic en él.
+## 📝 Créditos
 
-💡 Si usas Visual Studio Code con Live Server, haz clic derecho en index.html y selecciona "Open with Live Server" para recargas automáticas al guardar cambios.
-🛠 Tecnologías Utilizadas
-HTML5 – Estructura semántica y accesible.
+Desarrollado por **Juan José Lizarazu Quiroga** como parte del segundo parcial práctico de la materia **Tecnología Web I**.
 
-CSS3 – Estilizado y diseño responsivo.
-
-JavaScript (ES6+) – Interactividad y manipulación dinámica del DOM.
-
-localStorage – Persistencia de datos del lado del cliente.
-
-##💡 Características
-✅ Interfaz intuitiva y fácil de usar.
-✅ Navegación entre locales con un solo clic.
-✅ Uso de localStorage para mejorar la experiencia del usuario.
-✅ Código organizado y modular para facilitar su mantenimiento.
-✅ Base sólida para futuras funcionalidades como:
-
-* Menú interactivo con precios e imágenes.
-
-* Formulario "Hacer Pedido" con validación básica.
-
-* Sección "Ubicación" con mapa interactivo (Google Maps API).
-
-* Optimización para dispositivos móviles (diseño responsivo).
-
-* Carrito de compras básico con localStorage.
-
-¡Gracias por visitar este repositorio!
-Cualquier comentario, mejora o sugerencia es siempre bienvenida.
-
-Autor:
-Juan José Lizarazu Quiroga
-Estudiante de Tecnología Web I
+---
