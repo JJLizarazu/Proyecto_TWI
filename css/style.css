@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     height: 97vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/img/hero_img.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../assets/img/hero_img.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -134,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: white;
 }
+
 .call-to-action h2 {
     font-size: 3.5rem;
     color: white;
@@ -144,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 #cta-1 {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2669&auto=format&fit=crop');
 }
+
 #cta-2 {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1552539618-7eec9b4d1796?q=80&w=2748&auto=format&fit=crop');
 }
